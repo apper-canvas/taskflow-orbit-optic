@@ -43,7 +43,7 @@
 
 /* Smooth transitions for task completion */
 .task-complete {
-  @apply opacity-60 transition-all duration-400 ease-out;
+  @apply opacity-60 transition-all duration-[400ms] ease-out;
 }
 
 .task-complete .task-title {
